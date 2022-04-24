@@ -85,6 +85,27 @@ html{
 
 }
 
+#flor{
+    margin: 20px;
+    width: 60px;
+    height: 50px;
+    animation-name: flor-animation;
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-direction: reverse;
+    position: relative;
+    
+}
+@keyframes flor-animation {
+    0% { transform: rotate(0 deg); left: 0vw; top:0;}
+    25% {transform: rotate(90 deg); }
+    50% {transform: rotate(180 deg);}
+    75% {transform: rotate(270 deg);}
+    100% {transform: rotate(360 deg);left: 93vw; top:0;}
+}
+
+
 
 
 
