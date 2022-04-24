@@ -29,7 +29,7 @@ header{
 }
 
 .header__nav{  
-    background-image: linear-gradient(to right, #f3c653, rgba(243, 226, 72, 0.507)
+    background-image: linear-gradient(to right, #f3c653, rgb(229, 240, 135)
     );
 } 
 
@@ -84,6 +84,7 @@ html{
     scroll-behavior: smooth;
 
 }
+
 
 #flor{
     margin: 20px;
