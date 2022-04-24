@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@200&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 0%;
+    margin: 0;   
+}
+                                        /* HEADER */
+                                        
+body{
+    min-height: 1000px;
+    position: relative;
+}
+header{
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0px;   
+}
+
+.header__pic{
+    display: grid;
+    justify-self: center;    
+}
+#logo-contactos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__nav{  
+    background-color: #f3c653;
+} 
+
+.header__menu{
+
+    justify-content: space-evenly;
+    display: flex;    
+}
+.header__menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px; 
+    
+}
+.header__menu li a{
+    color: gray;
+}
+
+.header__menu--submenu{
+    position: relative;
+}
+.header__submenu{
+    display:none;
+    position:absolute;
+    background-color: rgb(160,160,160);
+    left: 8px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.header__submenu li a{
+    color: rgb(114, 110, 110);
+    text-decoration: none;    
+}
+
+
+
+.header__menu--submenu:hover .header__submenu{
+    display: block; 
+}
+
+
+.section__productos{
+    margin-top: -50px;
+    padding-top: 50px;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+
+
+
+
+
+/* Id html text decoration - none */
+#inicio{
+    text-decoration: none;
+}
+#productos{
+    text-decoration: none;
+}
+#quienes-somos{
+    text-decoration: none;
+}
+#ubicacion{
+    text-decoration: none;
+}
+#contacto{
+    text-decoration: none;
+}
+/* MAIN TODOS */
+
+.flex-container{
+    display: flex;
+    justify-content: center;  
+}
+
+.flex-container h2{
+    margin: 20px;
+    padding: 20px;
+    text-decoration: overline;
+    color: rgb(160, 160, 160);
+    
+}
+.flex-container h3{
+    margin-top: 0;
+    padding: 0px 40px 10px 40px;
+    color: rgb(160, 160, 160);
+    
+}
+
+/* INICIO */
+
+.img-teresita{
+    width: 40vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+.h3-horarios{
+    text-align: center;
+    color: rgb(75, 75, 75);
+}
+.redes{
+    text-align: center;
+    
+    
+}
+.redes a{
+    color: rgb(75, 75, 75);
+}
+
+
+
+
+/*PRODUCTOS*/
+/* .container-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    list-style:none;
+    text-align: center; 
+}
+.container-galeria li img{
+    width: 400px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+.container-galeria li{
+    padding: 20px 5px 20px 5px;
+} */
+
+.grid-galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.grid-galeria h2 {
+    display: grid;
+    justify-items: center;
+    color: rgb(160, 160, 160);
+    text-decoration: overline;
+    margin-bottom: 20px;
+}
+.grid-galeria-fotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    text-align: center;
+    list-style: none;
+    color: rgb(75, 75, 75);  
+}
+
+.grid-galeria-fotos li img{
+    width: 330px; 
+    
+    
+}
+/* QUIENES SOMOS */
+.flex-container h3{
+    color: black;
+    text-align:  center;
+    line-height: 35px;
+}
+
+
+                                        /*UBICACION*/
+                                        .iframe-maps{
+    align-content: center;
+    border-radius: 50px;
+}
+                                        /*CONTACTO*/
+                                        
+    
+                                        
+fieldset{
+                                            
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border-radius: 30px;
+   
+}
+fieldset legend{
+  
+    text-align: center;
+    color: rgb(114, 110, 110);
+    border-radius: 12px;
+    
+    
+}
+
+.flex-container__2 input{
+    margin-top: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    justify-self: center; 
+    padding: 6px;
+    width: 250px;
+    
+    border-radius: 8px;
+    
+}
+.flex-container__2 textarea{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 262px;
+    padding: 6px;   
+    border-radius: 8px;
+}
+/*Textarea*/
+textarea{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+    resize: none;
+}
+.flex-container--botones input{ 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 20px;
+    background-color: #f3c653;
+    width: 100px;
+    border-radius: 12px;
+    
+}
+.flex-container--botones input:hover {
+    background-color: rgb(160, 160, 160);
+}
+
+
+/*FOOTER*/
+
+footer{
+    background-color: rgb(172,172,172);
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.footer-text{
+    margin-left: 5px;
+    list-style: none;
+    text-align: center;
+}    
+.footer-text li {
+    color:rgb(114, 110, 110); 
+}
+.logos__redes{
+    display: flex;
+    justify-content: center;
+    
+}
+.logos__redes li{
+    display: inline;
+    
+    
+    
+}
+.logos__redes li a img{
+    width: 20px;
+    padding: 5px 8px 5px 20px;
+    
+}
+
+                                                /* GRIDS PRINCIPALES */
+                                                .body-content {
+                                                    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 0.7fr 0.25fr repeat(2, 1fr) 0.5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .header__pic { grid-area: 1 / 1 / 2 / 6; }
+    .header { grid-area: 2 / 1 / 3 / 6; }
+    .main-content { grid-area: 3 / 1 / 5 / 6; }
+    .footer-content { grid-area: 5 / 1 / 6 / 6; }
+    
+    @media only screen and (max-width:768px){
+        
+        .header__pic{
+           width:98vw;  
+        }
+        #logo-contactos{
+            width:98vw; 
+        }
+        .header__nav{  
+            width: 100vw;
+        } 
+        .header__menu{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 0%;  
+        }
+        .header__menu li a{
+            font-size: small;
+        }
+        
+        .grid-galeria-fotos{
+            grid-template-columns: 1fr;           
+        }
+        .grid-galeria-fotos li img{
+            width: 90vw;   
+        }
+        .iframe-maps{
+            width: 80vw;
+        }
+        fieldset{
+                                                
+            width: 380px;  
+        }
+    }
+    @media only screen and(min-width:540px){
+        .header__menu{
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            text-align: center;
+        }
+        .grid-galeria-fotos{
+            grid-template-columns: 1fr 1fr;           
+            
+        }
+    }
