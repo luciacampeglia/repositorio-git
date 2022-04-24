@@ -29,9 +29,13 @@ header{
 }
 
 .header__nav{  
-    background-color: #f3c653;
+    background-image: linear-gradient(to right, #f3c653, rgba(243, 226, 72, 0.507)
+    );
 } 
 
+.header__nav li:hover{
+    transform: scale(1.1);
+}
 .header__menu{
 
     justify-content: space-evenly;
